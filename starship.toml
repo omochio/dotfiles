@@ -5,7 +5,6 @@ show_always = true
 ssh_only = false
 
 [os]
-format = "[$symbol$version]($style)"
 style = "bold blue"
 disabled = false
 
