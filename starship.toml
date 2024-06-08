@@ -1,0 +1,14 @@
+[username]
+show_always = true
+
+[hostname]
+ssh_only = false
+
+[os]
+format = "[$symbol$version]($style)"
+style = "bold blue"
+disabled = false
+
+[os.symbols]
+Ubuntu = " "
+Windows = " "
