@@ -42,6 +42,10 @@ require("lazy").setup({
   checker = { enabled = true },
 })
 
+-- Update plugins
+require("lazy").update({ show = false })
+
+
 -- lspのハンドラーに設定
 capabilities = require("cmp_nvim_lsp").default_capabilities()
 
